@@ -4,15 +4,16 @@ import { AlbumCard } from './components/AlbumCard';
 import { MediaGrid } from './components/MediaGrid';
 import { Lightbox } from './components/Lightbox';
 import { Album } from './types';
-import { ArrowLeft, Heart, Lock, LogOut } from 'lucide-react';
+import { ArrowLeft, Heart, Lock, LogOut, Eye, EyeOff } from 'lucide-react';
 
-const SHARED_PASSWORD = "familia"; // Contraseña simple para la familia
+const SHARED_PASSWORD = "tiburcia"; // Contraseña simple para la familia
 
 const App: React.FC = () => {
   // --- Auth State ---
   const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
   const [passwordInput, setPasswordInput] = useState<string>("");
   const [authError, setAuthError] = useState<string>("");
+  const [showPassword, setShowPassword] = useState<boolean>(false);
 
   // --- App State ---
   const [selectedAlbum, setSelectedAlbum] = useState<Album | null>(null);
@@ -130,7 +131,7 @@ const App: React.FC = () => {
            </div>
 
            <h1 className="text-2xl md:text-4xl font-bold text-sepia-900 mb-4 tracking-tight">
-             Bienvenida a la Familia
+             Recuerdos que Nos Unen
            </h1>
            
            <p className="text-lg md:text-2xl text-sepia-700 mb-6 md:mb-8 leading-relaxed">
@@ -138,16 +139,24 @@ const App: React.FC = () => {
            </p>
 
            <form onSubmit={handleLogin} className="space-y-4 md:space-y-6">
-             <div>
+             <div className="relative">
                <input
-                 type="password"
+                 type={showPassword ? "text" : "password"}
                  value={passwordInput}
                  onChange={(e) => setPasswordInput(e.target.value)}
-                 className="w-full text-2xl md:text-3xl p-4 md:p-5 text-center border-4 border-sepia-200 rounded-2xl focus:border-sepia-500 focus:outline-none focus:ring-4 focus:ring-sepia-200 placeholder:text-sepia-300 text-sepia-800 transition-all bg-sepia-50"
+                 className="w-full text-2xl md:text-3xl p-4 md:p-5 text-center border-4 border-sepia-200 rounded-2xl focus:border-sepia-500 focus:outline-none focus:ring-4 focus:ring-sepia-200 placeholder:text-sepia-300 text-sepia-800 transition-all bg-sepia-50 pr-14"
                  placeholder="Contraseña"
                  autoFocus
                  autoComplete="current-password"
                />
+               <button
+                 type="button"
+                 onClick={() => setShowPassword(!showPassword)}
+                 className="absolute right-4 top-1/2 -translate-y-1/2 p-2 text-sepia-400 hover:text-sepia-600 transition-colors"
+                 aria-label={showPassword ? "Ocultar contraseña" : "Mostrar contraseña"}
+               >
+                 {showPassword ? <EyeOff size={24} /> : <Eye size={24} />}
+               </button>
              </div>
              
              {authError && (
@@ -167,7 +176,7 @@ const App: React.FC = () => {
            </form>
            
            <p className="mt-6 md:mt-8 text-sepia-400 text-base md:text-lg italic">
-             (Pista: es la palabra "familia")
+             (Pista: 🦈 + 🦇)
            </p>
         </div>
       </div>

@@ -8,14 +8,15 @@ export const familyAlbums: Album[] = [
     coverImage: 'https://drive.google.com/file/d/1tPed49S-LjXx2DBGJjDRroAoseaObdBr/view?usp=sharing',
     isLegendary: true,
     media: [
+      { id: '1aP18RkNLKfYUYJJGHXLbpGeEyAHkuWol', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1_P-Fo5acDUULLpmu8Rata6zm8pN40Pg0/view?usp=drive_link', caption: 'Recuerdos de Camila' },
       { id: '1GR_pXxyk70ljyuqYJmPDtxNpMNOm9JDE', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1GR_pXxyk70ljyuqYJmPDtxNpMNOm9JDE/view?usp=sharing', caption: 'Recuerdos de Lautaro' },
       { id: '1lG_1o6BUvjiOMFAfq8xnca3bUF1iMoqB', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1lG_1o6BUvjiOMFAfq8xnca3bUF1iMoqB/view?usp=sharing', caption: '15 de Camila' },
-      { id: '1H195F9e5OCjYynaJsSf3zWw-dRYCBYcY', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1H195F9e5OCjYynaJsSf3zWw-dRYCBYcY/view?usp=drive_link', caption: 'Boda de Plata - Fiesta' },
+      { id: '1pBquPaVjYAnOGV8CxtHtnQz_dLfKIPai', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1pBquPaVjYAnOGV8CxtHtnQz_dLfKIPai/view?usp=sharing', caption: 'Camila 15 Velas' },
       { id: '15O65hjAYGNZmQ9Ul0A2PfxAdpeMhKFmr', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1Z2wDE5SUfcQPyYSrIylxQSGTpQk5ArvY/view?usp=drive_link', caption: 'Boda de Plata - Iglesia' },
-      { id: '1aP18RkNLKfYUYJJGHXLbpGeEyAHkuWol', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1aP18RkNLKfYUYJJGHXLbpGeEyAHkuWol/view?usp=drive_link', caption: 'Recuerdos de Camila' },
+      { id: '1H195F9e5OCjYynaJsSf3zWw-dRYCBYcY', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1Z2wDE5SUfcQPyYSrIylxQSGTpQk5ArvY/view?usp=drive_link', caption: 'Boda de Plata - Fiesta' },
+      { id: '1UhxXtvN14wNAY3VOCcwNDNSA8jWgKXR1', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1UhxXtvN14wNAY3VOCcwNDNSA8jWgKXR1/view?usp=drive_link', caption: '25 AÑOS JUNTOS VIDEO 1' },
       { id: '18EGxQA9MJXctWRcb4j4h-imMCzd73iLU', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/18EGxQA9MJXctWRcb4j4h-imMCzd73iLU/view?usp=drive_link', caption: '25 AÑOS JUNTOS VIDEO 2' },
       { id: '1q1pLPkpp3nZfTN0NYz8cyzEg_Yn2-QKe', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1q1pLPkpp3nZfTN0NYz8cyzEg_Yn2-QKe/view?usp=drive_link', caption: '25 AÑOS JUNTOS VIDEO EDITADO POR CAMILA (PAINT)' },
-      { id: '1UhxXtvN14wNAY3VOCcwNDNSA8jWgKXR1', type: MediaType.VIDEO, url: 'https://drive.google.com/file/d/1UhxXtvN14wNAY3VOCcwNDNSA8jWgKXR1/view?usp=drive_link', caption: '25 AÑOS JUNTOS VIDEO 1' },
     ]
   },
   // --- ÁLBUMES EXISTENTES (1-14) ---
@@ -353,7 +354,7 @@ export const familyAlbums: Album[] = [
 
   {
     id: '2009',
-    title: '5. BIENVENIDO 2009',
+    title: 'BIENVENIDO 2009',
     date: '2009',
     coverImage: 'https://drive.google.com/open?id=1G2WdSv2aELg1bjbU3-3jvWFx_nBWwIHa',
     media: [
@@ -407,7 +408,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'calasanz',
-    title: '6. CALASANZ PRIMER DIA DE CLASES',
+    title: 'CALASANZ PRIMER DIA DE CLASES',
     date: 'Primer Día',
     coverImage: 'https://drive.google.com/open?id=1KYBpOuCzRgZiB-kSw96FYDkqyv9nxjJ7',
     media: [
@@ -424,7 +425,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'carpinteria',
-    title: '7. CARPINTERIA Y MERLO - FEB 09',
+    title: 'CARPINTERIA Y MERLO - FEB 09',
     date: 'Feb 2009',
     coverImage: 'https://drive.google.com/open?id=1G9U-ohteyTZ5_bvzL55b1okr2aYi9Ad6',
     media: [
@@ -579,7 +580,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'cumple19',
-    title: '8. CUMPLE 19 CAMI',
+    title: 'CUMPLE 19 CAMI',
     date: 'Cumpleaños',
     coverImage: 'https://drive.google.com/file/d/1uFTt6KmbaRqIvIJaQJKJjP7sXlLiQAfq/view?usp=drive_link',
     media: [
@@ -604,7 +605,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'cumple50oscar',
-    title: '9. CUMPLE 50 OSCAR PORFIRI',
+    title: 'CUMPLE 50 OSCAR PORFIRI',
     date: 'Cumpleaños',
     coverImage: 'https://drive.google.com/file/d/1vL_UKlqt7hNIQOovxtxWUI-8qTZmjMxi/view?usp=drive_link',
     media: [
@@ -625,7 +626,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'cumple50ricardo',
-    title: '10. CUMPLE 50 RICARDO SALAZAR',
+    title: 'CUMPLE 50 RICARDO SALAZAR',
     date: 'Cumpleaños',
     coverImage: 'https://drive.google.com/open?id=1yEa5bsiZiMNSyfbh2Pv2NV8-VKfSGg45',
     media: [
@@ -647,7 +648,7 @@ export const familyAlbums: Album[] = [
   // --- NUEVOS ÁLBUMES IMPORTADOS (15-37) ---
   {
     id: 'toto_25_anios',
-    title: '15. 25 Años Docencia Toto',
+    title: '25 Años Docencia Toto',
     date: 'Aniversario',
     coverImage: 'https://drive.google.com/file/d/1U_q1guDNI1F7LLBuPwhbKVNOWNW4fqcC/view?usp=drivesdk',
     media: [
@@ -664,7 +665,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'toto_corralito',
-    title: '16. Cumple Toto en el Corralito',
+    title: 'Cumple Toto en el Corralito',
     date: 'Cumpleaños',
     coverImage: 'https://drive.google.com/file/d/1f8I3RXHGsq3pFl5Obram511Cd27n-M0A/view?usp=drivesdk',
     media: [
@@ -684,7 +685,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'toto_mercedes',
-    title: '17. Cumple Toto en Mercedes',
+    title: 'Cumple Toto en Mercedes',
     date: 'Cumpleaños',
     coverImage: 'https://drive.google.com/file/d/11iNTD5LIjbY-l-nnwWdussNFY0NrfG-B/view?usp=drivesdk',
     media: [
@@ -709,7 +710,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'lau_14',
-    title: '18. Cumple Lau 14',
+    title: 'Cumple Lau 14',
     date: 'Cumpleaños',
     coverImage: 'https://drive.google.com/file/d/1M4wQ-1sj9NrC3jfAKUFBm1mvg4CztgPB/view?usp=drivesdk',
     media: [
@@ -754,7 +755,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'paseo_abu',
-    title: '19. De Paseo con la Abu',
+    title: 'De Paseo con la Abu',
     date: 'Paseo',
     coverImage: 'https://drive.google.com/file/d/1X8VINh5r8SFeehUCysj7pr5ISUDrapiC/view?usp=drivesdk',
     media: [
@@ -769,7 +770,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'dia_madre',
-    title: '20. Día de la Madre',
+    title: 'Día de la Madre',
     date: 'Día de la Madre',
     coverImage: 'https://drive.google.com/file/d/1WEcwDBOVW33yQM3wI6PdTm6UekmT9hYu/view?usp=drivesdk',
     media: [
@@ -798,7 +799,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'dia_madre_ramos',
-    title: '21. Día de la Madre en Ramos',
+    title: 'Día de la Madre en Ramos',
     date: 'Día de la Madre',
     coverImage: 'https://drive.google.com/file/d/1s3ldfnbFpdApiJC2jEVMAapQaXgnhk_a/view?usp=drivesdk',
     media: [
@@ -809,7 +810,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'dia_madre_abu',
-    title: '22. Día de la Madre y Cumple Abu',
+    title: 'Día de la Madre y Cumple Abu',
     date: 'Celebración',
     coverImage: 'https://drive.google.com/file/d/1FrBr6AYML0YIn3vjupkpttKoz-Uxdszk/view?usp=drivesdk',
     media: [
@@ -835,7 +836,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'dia_maestro',
-    title: '23. Día del Maestro',
+    title: 'Día del Maestro',
     date: 'Celebración',
     coverImage: 'https://drive.google.com/file/d/1wS5LIBFln6YCpPoopI7gypb7-EIijuiX/view?usp=drivesdk',
     media: [
@@ -846,7 +847,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'violetas',
-    title: '24. Té en Las Violetas',
+    title: 'Té en Las Violetas',
     date: 'Salida',
     coverImage: 'https://drive.google.com/file/d/10pnZYcltGiJf2AqD4dmCInP3_NkDRm2T/view?usp=drivesdk',
     media: [
@@ -875,7 +876,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'bandera_cami',
-    title: '25. Entrega de Bandera Cami',
+    title: 'Entrega de Bandera Cami',
     date: 'Evento Escolar',
     coverImage: 'https://drive.google.com/file/d/1pNQrwlTcHHNbuKbKEuSK83KXDMtG61gv/view?usp=drivesdk',
     media: [
@@ -909,7 +910,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'mardel_dic',
-    title: '26. Escapada a Mardel (Dic)',
+    title: 'Escapada a Mardel (Dic)',
     date: 'Viaje',
     coverImage: 'https://drive.google.com/file/d/1WfKbY1yrw9BhbX5FB96ktHJye17Seakw/view?usp=drivesdk',
     media: [
@@ -953,7 +954,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'fiesta_ef_cami',
-    title: '27. Fiesta Ed. Física Cami',
+    title: 'Fiesta Ed. Física Cami',
     date: 'Evento Escolar',
     coverImage: 'https://drive.google.com/file/d/1DgHVh1tX2Pd4xdxts0lRqKLmWYpnoYUt/view?usp=drivesdk',
     media: [
@@ -969,7 +970,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'fotos_2007',
-    title: '28. Fotos 2007 (Marzo-Nov)',
+    title: 'Fotos 2007 (Marzo-Nov)',
     date: '2007',
     coverImage: 'https://drive.google.com/file/d/1bU6xx2nYECEps089hsv2U7YsFAOiKGfP/view?usp=drivesdk',
     media: [
@@ -1011,7 +1012,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'fotos_15_cami',
-    title: '29. Fotos de 15 de Camila',
+    title: 'Fotos de 15 de Camila',
     date: 'Celebración',
     coverImage: 'https://drive.google.com/file/d/1uVmrprUzYx6f6rSEUN38cXtGtKcXukFb/view?usp=drivesdk',
     media: [
@@ -1033,7 +1034,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'larraude',
-    title: '30. Larraude (La Pampa)',
+    title: 'Larraude (La Pampa)',
     date: 'Viaje',
     coverImage: 'https://drive.google.com/file/d/1NLQzs3kXGQIwW0lFRFX58iPnJMQYSdiH/view?usp=drivesdk',
     media: [
@@ -1062,7 +1063,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'lau_corte',
-    title: '31. Lau y el Corte',
+    title: 'Lau y el Corte',
     date: 'Feb 2009',
     coverImage: 'https://drive.google.com/file/d/1B1mR-LyJbRRDk9zvsNFBGIDlOSBsQM03/view?usp=drivesdk',
     media: [
@@ -1075,7 +1076,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'mi_cumple_08',
-    title: '32. Mi Cumple (12-12-08)',
+    title: 'Mi Cumple (12-12-08)',
     date: '12-12-08',
     coverImage: 'https://drive.google.com/file/d/14ABTjUsGi3b9B_xv6BlAIcreYZpFTy_h/view?usp=drivesdk',
     media: [
@@ -1087,7 +1088,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'murga',
-    title: '33. Murga Jardín',
+    title: 'Murga Jardín',
     date: 'Evento Escolar',
     coverImage: 'https://drive.google.com/file/d/1opBq-Gy6ym4BwBIt9ovRgiY0FA8vdXkv/view?usp=drivesdk',
     media: [
@@ -1115,7 +1116,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'costa_chica',
-    title: '34. Vacaciones Costa Chica',
+    title: 'Vacaciones Costa Chica',
     date: 'Viaje',
     coverImage: 'https://drive.google.com/file/d/1RTsW0gmOwsCdq442AugFhWdFIZL7ATfF/view?usp=drivesdk',
     media: [
@@ -1157,7 +1158,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'gualeguaychu',
-    title: '35. Vacaciones Gualeguaychú',
+    title: 'Vacaciones Gualeguaychú',
     date: 'Viaje',
     coverImage: 'https://drive.google.com/file/d/1xwB19-PSmdaSMpGeeIaJG0GcR4lK8_cX/view?usp=drivesdk',
     media: [
@@ -1198,7 +1199,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'mar_del_tuyu',
-    title: '36. Vacaciones Mar del Tuyú 09',
+    title: 'Vacaciones Mar del Tuyú 09',
     date: 'Viaje',
     coverImage: 'https://drive.google.com/file/d/1Lyxy78JpuXym6jwXJD4Zzjy_CY1g4jeN/view?usp=drivesdk',
     media: [
@@ -1236,7 +1237,7 @@ export const familyAlbums: Album[] = [
   },
   {
     id: 'canarios',
-    title: '37. Visita de los Canarios 2008',
+    title: 'Visita de los Canarios 2008',
     date: 'Visita',
     coverImage: 'https://drive.google.com/file/d/1fRLOKIHhmisM-biJ8ywwaMvCxdRgbRrn/view?usp=drivesdk',
     media: [
